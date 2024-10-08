@@ -66,8 +66,7 @@ SUSHIENDAR M
 
 
 **Truth Table:**
-![image](https://github.com/user-attachments/assets/f9a04093-2abb-45bb-afa3-22b8ab9d30f0)
-
+![image](https://github.com/user-attachments/assets/b50d871a-a694-4788-82b5-4cf55e1f47d9)
 
 
 **Timing Diagram**
