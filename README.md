@@ -59,16 +59,7 @@ Register Number: 212223040217
 ## RTL:
 ![image](https://github.com/user-attachments/assets/0db1359e-0350-44cf-83ca-1198df2f85d3)
 
-
-
-
-
-
 ## Output:
-
-
-
-
 ![image](https://github.com/user-attachments/assets/ba0cf797-64b8-47f9-976b-0604eb6d1942)
 
 
