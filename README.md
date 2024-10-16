@@ -46,7 +46,7 @@ or g4(f2,s,t,u);
 endmodule
 ```
 
-## Developed by: RegisterNumber:
+## Developed by RegisterNumber:
 ```
 SUSHIENDAR M
 212223040217
