@@ -46,10 +46,10 @@ or g4(f2,s,t,u);
 endmodule
 ```
 
-## Developed by RegisterNumber:
+## Developed by:
 ```
-SUSHIENDAR M
-212223040217
+Name: SUSHIENDAR M
+Register Number: 212223040217
 ```
 
 ## Truth Table:
