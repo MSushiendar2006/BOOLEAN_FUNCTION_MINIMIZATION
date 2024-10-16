@@ -54,6 +54,7 @@ SUSHIENDAR M
 
 ## Truth Table:
 ![image](https://github.com/user-attachments/assets/b50d871a-a694-4788-82b5-4cf55e1f47d9)
+
 ![image](https://github.com/user-attachments/assets/596a05f6-f99a-4fc9-8ee4-569fadfaa5de)
 
 
