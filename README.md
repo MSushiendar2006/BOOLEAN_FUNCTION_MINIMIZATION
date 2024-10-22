@@ -33,7 +33,13 @@ endmodule
 
 ```
 F2:
+module boolenminization2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=(x)&(~y)&(z)|(~x)&(~y)&(z)|(~w)&(x)&(y)|(w)&(~x)&(y)|(w)&(x)&(y);
+endmodule
 ```
+
 
 
 ## Developed by:
@@ -57,13 +63,20 @@ F1:
 ```
 F2:
 ```
-
-
-
+![image](https://github.com/user-attachments/assets/2aefecf8-0bfe-46b2-b77b-6588ccfe16e2)
 
 ## Output:
-
+```
+F1
+```
 ![h6nclv7b](https://github.com/user-attachments/assets/babd04c2-8f1c-4c3b-8df8-8874a6959fef)
+
+```
+F2
+```
+![image](https://github.com/user-attachments/assets/e89ffaa3-3d13-45ee-b299-df0a67f14703)
+
+
 
 
 ## Result:
