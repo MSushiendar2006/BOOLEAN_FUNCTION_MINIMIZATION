@@ -23,26 +23,18 @@ Software – Quartus prime*
 
 ## Program:
 ```
-module boolean_minimization(a,b,c,d,w,x,y,z,f1,f2);
-input a,b,c,d,w,x,y,z;
-output f1,f2;
-wire adash,bdash,cdash,ddash,ydash,p,q,r,s,t,u;
-not(adash,a);
-not(bdash,b);
-not(cdash,c);
-not(ddash,d);
-not(ydash,y);
-and(p,bdash,ddash);
-and(q,adash,b,d);
-and(r,a,b,cdash);
-or(f1,p,q,r);
-
-and g1(s,ydash,z);
-and g2(t,x,y);
-and g3(u,w,z);
-or g4(f2,s,t,u);
+F1:
+module boolenminization(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=(~a)&(~b)&(~c)&(~d)|(a)&(~c)&(~d)|(~b)&(c)&(~d)|(~a)&(b)&(c)&(d)|(b)&(~c)&(d);
 endmodule
 ```
+
+```
+F2:
+```
+
 
 ## Developed by:
 ```
@@ -57,10 +49,21 @@ Register Number: 212223040217
 
 
 ## RTL:
-![image](https://github.com/user-attachments/assets/0db1359e-0350-44cf-83ca-1198df2f85d3)
+```
+F1:
+```
+![image](https://github.com/user-attachments/assets/0c62e091-eea1-4a4f-ba9c-84f271e05c67)
+
+```
+F2:
+```
+
+
+
 
 ## Output:
-![image](https://github.com/user-attachments/assets/ba0cf797-64b8-47f9-976b-0604eb6d1942)
+
+![h6nclv7b](https://github.com/user-attachments/assets/babd04c2-8f1c-4c3b-8df8-8874a6959fef)
 
 
 ## Result:
